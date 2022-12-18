@@ -21,8 +21,8 @@ export default function Hero() {
           repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
         </Description>
         <CustomButtonGroup>
-          <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+          <Button color='primary' onClick={() => setIsModalOpened(true)}>
+            Subscribe to the rr <span>&rarr;</span>
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
