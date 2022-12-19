@@ -7,23 +7,21 @@ import Container from 'components/Container';
 import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
-  'logoipsum-logo-1.svg',
-  'logoipsum-logo-2.svg',
-  'logoipsum-logo-3.svg',
-  'logoipsum-logo-4.svg',
-  'logoipsum-logo-5.svg',
-  'logoipsum-logo-6.svg',
-  'logoipsum-logo-7.svg',
+  'p1.png',
+  'p2.png',
+  'p3.png',
+  'p4.png',
+  'p5.png',
 ];
 
 export default function Partners() {
   return (
     <PartnersWrapper>
-      <Title>official partners with</Title>
+      <Title>Nos partenaires officiels</Title>
       <Swiper
         modules={[Autoplay]}
-        slidesPerView={6}
-        spaceBetween={30}
+        slidesPerView={5}
+        spaceBetween={40}
         loop={true}
         autoplay={{ delay: 0, disableOnInteraction: false, pauseOnMouseEnter: false, waitForTransition: false, stopOnLastSlide: false }}
         speed={3000}
@@ -36,7 +34,7 @@ export default function Partners() {
       >
         {PARTNER_LOGOS.map((logo) => (
           <SwiperSlide key={logo}>
-            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={128} height={128} />
+            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={150} height={80} />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -45,7 +43,7 @@ export default function Partners() {
 }
 
 function normalizePartnerLogoName(logo: string) {
-  return logo.replace('.svg', '');
+  return logo.replace('.png', '');
 }
 
 const Title = styled.h3`

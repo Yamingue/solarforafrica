@@ -13,23 +13,22 @@ export default function Cta() {
     <CtaWrapper>
       <Container>
         <Stack>
-          <OverTitle>Lorem ipsum dolor sit amet</OverTitle>
-          <SectionTitle>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus delectus?</SectionTitle>
+          <OverTitle>Stratégies d'intervention de la société</OverTitle>
+          <SectionTitle>Pourqoui nous faire confiance ?</SectionTitle>
           <Description>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda beatae accusamus deleniti nihil quas tempora numquam, vitae
-            culpa.
+          SOLAR FOR AFRICA mobilise l'expertise nationale et internationale pour définir les attentes de ses clients et réaliser des ser-vices demandés dans le délais et avec professionnalisme.
           </Description>
           <ButtonGroup>
-            <NextLink href="#early-access" passHref>
+            <NextLink href="/contact" passHref>
               <Button>
-                Subscribe to the newsletter <span>&rarr;</span>
+                Contactez-nous <span>&rarr;</span>
               </Button>
             </NextLink>
-            <NextLink href="#whitepaper" passHref>
+            {/* <NextLink href="#whitepaper" passHref>
               <OutlinedButton transparent>
                 Features <span>&rarr;</span>
               </OutlinedButton>
-            </NextLink>
+            </NextLink> */}
           </ButtonGroup>
         </Stack>
       </Container>

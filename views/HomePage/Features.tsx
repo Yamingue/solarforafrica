@@ -4,67 +4,57 @@ import AutofitGrid from 'components/AutofitGrid';
 import BasicCard from 'components/BasicCard';
 import Container from 'components/Container';
 import { media } from 'utils/media';
+import OverTitle from 'components/OverTitle';
 
 const FEATURES = [
   {
-    imageUrl: '/grid-icons/asset-1.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    imageUrl: '/energie-renouvelable.svg',
+    title: 'Energies renouvelables.',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      `Étude, conception, réalisation, réhabilitation et maintenance :
+      Electricité solaire I Chauffe-eau Solaire I Froid et climatisation solaire I Pompage solaire I Systèmes d'irrigation solaire goûte à goûte et par inondation I Éoliennes de pompage et produc-trice d'électricité Production de biogaz I Production de charbon vert`,
   },
   {
-    imageUrl: '/grid-icons/asset-2.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    imageUrl: '/formations.svg',
+    title: 'Formations.',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      'Technique & Pratique en Energie Solaire Photovoltaïque',
   },
   {
-    imageUrl: '/grid-icons/asset-3.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    imageUrl: '/environnement.svg',
+    title: 'Genie Rural, Civil & environnemental.',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      `Eco-construction ou construction durable, création, restauration, rénovation, réhabilitation des bâtiments permettant de respecter au mieux l'écologie à chaque étape de la construction, afin de profité pleinement du de ces atouts: (chauffage, consommation d'énergie, rejet des divers flux : eau, déchets), études d'impact environnementale.
+      Forages manuels, mécaniques, et puits pastoraux.
+      Construction et Réfection des
+      Bâtiments, Construction métallique, Plomberie.`,
   },
   {
-    imageUrl: '/grid-icons/asset-4.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    imageUrl: '/informatique.svg',
+    title: 'Informatique & Télécoms.',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      `Drive test sites, Entretien des pilonnes, Construction des sites, VSAT, Création des bases de données, Maintenance informatique`,
   },
   {
-    imageUrl: '/grid-icons/asset-5.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    imageUrl: '/assurance.svg',
+    title: 'Assurance SAV,Vent et installations.',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-6.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-7.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-8.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-9.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      `Nous assurons le service après vente de tout nos équipement`,
   },
 ];
 
 export default function Features() {
   return (
     <Container>
+      <div
+        style={{
+          margin:'0px auto',
+          paddingBottom:50,
+          textAlign:'center'
+        }}
+      >
+        <OverTitle>Notre domaine d’intervention</OverTitle>
+      </div>
       <CustomAutofitGrid>
         {FEATURES.map((singleFeature, idx) => (
           <BasicCard key={singleFeature.title} {...singleFeature} />

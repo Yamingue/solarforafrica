@@ -69,7 +69,8 @@ export default function Navbar({ items }: NavbarProps) {
       <Content>
         <NextLink href="/" passHref>
           <LogoWrapper>
-            <Logo />
+            <h2>Solar for africa</h2>
+            {/* <Logo /> */}
           </LogoWrapper>
         </NextLink>
         <NavItemList>

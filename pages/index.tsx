@@ -27,33 +27,28 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          <BasicSection imageUrl="/water-pump.svg" title="PHOTOVOLTAIQUE – POMPES SOLAIRES" overTitle="POMPES SOLAIRES">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
+              L’utilisation de systèmes de pompage immergés ou en surface alliés à un système photovoltaïque est une alternative intéressante. En effet, l’énergie solaire reste abondante et gratuite, elle est captée via des panneaux solaires posés soit en châssis au sol soit sur des trackers solaires qui vont suivre la course du soleil pour augmenter les performances du système.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/solar2.svg" title="PHOTOVOLTAIQUE – KITS SITES ISOLES DC - CONTINU" overTitle="PHOTOVOLTAIQUE" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+              Les kits SOLAR FOR AFRICA sont livrés prêts à être posés et utilisés sur des châssis équipés des protections, de l’onduleur, du régulateur de charge, des batteries et des câbles solaires. Les kits comprennent les panneaux photovoltaïques ainsi que les châssis de toiture.
             </p>
-            <ul>
+            {/* <ul>
               <li>Professional point 1</li>
               <li>Professional remark 2</li>
               <li>Professional feature 3</li>
-            </ul>
+            </ul> */}
           </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
           <Cta />
-          <FeaturesGallery />
+          {/* <FeaturesGallery /> */}
           <Features />
-          <Testimonials />
-          <ScrollableBlogPosts posts={posts} />
+          {/* <Testimonials /> */}
+          {/* <ScrollableBlogPosts posts={posts} /> */}
         </DarkerBackgroundContainer>
       </HomepageWrapper>
     </>

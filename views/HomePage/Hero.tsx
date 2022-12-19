@@ -14,21 +14,26 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>Choisissez les énergies renouvelables pour votre habitation.</CustomOverTitle>
+        <Heading>Solar for Africa and renewables energies</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Nous nous appuyons sur notre expérience de l’énergie solaire pour concevoir et assembler nos kits solaires.
+          Les kits SOLAR FOR AFRICA sont livrés prêts à être posés et utilisés sur des châssis équipés des protections, de l’onduleur, du régulateur de charge, des batteries et des câbles solaires. Les kits comprennent les panneaux photovoltaïques ainsi que les châssis de toiture.
+          En option, sur les grosses puissances des systèmes de trackers solaires peuvent être adjoints.
         </Description>
         <CustomButtonGroup>
-          <Button color='primary' onClick={() => setIsModalOpened(true)}>
-            Subscribe to the rr <span>&rarr;</span>
+          <NextLink href='/contact'>
+          <Button color='primary' onClick={() => {
+            //setIsModalOpened(true)
+            }}>
+            Contactez-nous <span>&rarr;</span>
           </Button>
-          <NextLink href="#whitepaper" passHref>
+          </NextLink>
+          {/* <NextLink href="#whitepaper" passHref>
             <Button transparent>
               Features <span>&rarr;</span>
             </Button>
-          </NextLink>
+          </NextLink> */}
         </CustomButtonGroup>
       </Contents>
       <ImageContainer>
