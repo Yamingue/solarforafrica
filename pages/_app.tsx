@@ -4,7 +4,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 
 import { AppProps } from 'next/dist/shared/lib/router/router';
-import dynamic from 'next/dynamic';
+// import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import { ColorModeScript } from 'nextjs-color-mode';
 import React, { PropsWithChildren } from 'react';
@@ -20,7 +20,7 @@ import { NavItems } from 'types';
 
 const navItems: NavItems = [
   { title: 'Acceuil', href: '/' },
-  { title: 'Awesome Features', href: '/features' },
+  { title: 'Nos offres', href: '/offres' },
   { title: 'Pricing', href: '/pricing' },
   { title: 'Contact', href: '/contact' },
   { title: 'Sign up', href: '/sign-up', outlined: true },
