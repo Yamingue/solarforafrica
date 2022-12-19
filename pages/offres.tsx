@@ -39,53 +39,56 @@ const FEATURES = [
   },
   {
     imageUrl: '/offres/d180.png',
-    title: 'Lorem ipsum dolor sit amet.',
+    title: 'd.light D180 Solar Home System.',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      `
+      Solar Panel: 12W
+      Battery:  10 Ah LFP (32 Wh)
+      Lamps:  1X tube light, 2X bulbs
+      Accessorie: Radio, torch, mobile charging adapters
+      Tube light: Up to 220 lumens
+      Bulbs:  Up to 120 lumens
+      Lighting Runtime: 2700 lumen-hours of light on full battery
+      Additional Features: Two brightness settings
+      Units in a carton: 6
+      Gift box Weight: 3kg
+      Gift box Dimensions: 495(L)x190(W)x80(H)mm
+      40’ HQ Container Loading: 7500 units
+      `,
   },
   {
-    imageUrl: '/grid-icons/asset-4.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    imageUrl: '/offres/d100.png',
+    title: 'd.light D100 Solar Home System.',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
+      `
+      Solar Panel:  9W
+      Battery : 10 Ah LFP (32 Wh)
+      Lamps: 1X tube light, 2X bulbs
+      Accessories:  Mobile charging adapters
+      Bulbs:  Up to 120 lumens
+      Tube light: Up to 220 lumens
+      Lighting Runtime: 3900 lumen-hours of light on full battery
+      Additional Features:  Two brightness settings
+      Units in a carton:  6
+      Gift box Weight:  3.56 kg
+      Gift box Dimensions:  400(L)x195(H)x80(D)mm
+      40’ HQ Container Loading: 8700 units
+      `,
   },
   {
-    imageUrl: '/grid-icons/asset-5.svg',
-    title: 'Lorem ipsum dolor sit amet.',
+    imageUrl: '/offres/tele.png',
+    title: 'd.light X1000 Système solaire domestique avec télévision solaire',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-6.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-7.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-8.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
-  {
-    imageUrl: '/grid-icons/asset-9.svg',
-    title: 'Lorem ipsum dolor sit amet.',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
-  },
+      `
+      `,
+  }, 
 ];
 
 export default function FeaturesPage() {
   return (
-    <Page title="Features" description="Elit aute do nisi Lorem id ea culpa sint duis eu tempor dolore elit.">
+    <Page title="OFFRES" description="Nos solutions solaires rendent l'énergie propre universellement disponible et abordable.">
       <Wrapper>
-        <SectionTitle>Check out this quick introduction</SectionTitle>
+        <SectionTitle>Découvrez cette introduction rapide</SectionTitle>
         {/* <YoutubeVideo url="https://www.youtube.com/watch?v=BggrpKfqh1c" /> */}
         <CustomAutofitGrid>
           {FEATURES.map((singleFeature, idx) => (
