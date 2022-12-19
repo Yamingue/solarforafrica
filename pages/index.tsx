@@ -11,7 +11,7 @@ import Features from 'views/HomePage/Features';
 import Hero from 'views/HomePage/Hero';
 import Partners from 'views/HomePage/Partners';
 // import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
-// import Testimonials from 'views/HomePage/Testimonials';
+import Testimonials from 'views/HomePage/Testimonials';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
@@ -47,7 +47,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
           <Cta />
           {/* <FeaturesGallery /> */}
           <Features />
-          {/* <Testimonials /> */}
+          <Testimonials />
           {/* <ScrollableBlogPosts posts={posts} /> */}
         </DarkerBackgroundContainer>
       </HomepageWrapper>

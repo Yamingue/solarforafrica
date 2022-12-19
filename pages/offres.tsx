@@ -31,14 +31,14 @@ const FEATURES = [
       Battery:    2400mAh
       Lighting Runtime:   Runtime at highest setting (200 lumens) is 5 hours on full charge battery.
       Additional Features: Customizable brightness settings, free mobile charging
-      Units in a carton
-      Gift box Weight:  
-      Gift box Dimensions:  
-      40’ HQ Container Loading: 
+      Units in a carton:  12
+      Gift box Weight:  0.66 kg
+      Gift box Dimensions:  161(L)x78(W)x284(H)mm
+      40’ HQ Container Loading: 14400 units
       `,
   },
   {
-    imageUrl: '/grid-icons/asset-3.svg',
+    imageUrl: '/offres/d180.png',
     title: 'Lorem ipsum dolor sit amet.',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error dolorem ipsa dolore facere est consequuntur aut, eos doloribus voluptate?',
