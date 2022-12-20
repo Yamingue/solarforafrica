@@ -7,11 +7,11 @@ import Container from 'components/Container';
 import { media } from 'utils/media';
 
 const PARTNER_LOGOS = [
-  'p1.png',
-  'p2.png',
-  'p3.png',
-  'p4.png',
-  'p5.png',
+  'HCR.jpg',
+  'OMS.png',
+  'PNUD.png',
+  'UNFPA.png',
+  'UNICEF.jpg',
 ];
 
 export default function Confiance() {
@@ -34,7 +34,7 @@ export default function Confiance() {
       >
         {PARTNER_LOGOS.map((logo) => (
           <SwiperSlide key={logo}>
-            <NextImage src={'/partners/' + logo} alt={normalizePartnerLogoName(logo)} width={150} height={80} />
+            <NextImage src={'/confinace/' + logo} alt={normalizePartnerLogoName(logo)} width={150} height={80} />
           </SwiperSlide>
         ))}
       </Swiper>
