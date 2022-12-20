@@ -22,9 +22,9 @@ const footerItems: FooterItems = [
     items: [
       { title: 'Features', href: '#' },
       { title: 'E-mail: solar.forafrica@yahoo.com', href: '/something' },
-      { title: 'Tel: +235 62 80 52 61 / 98 27 67 04', href: '/something' },
-      { title: 'QUARTIER CHAGOUA', href: '/something' },
-      { title: 'BP: 1629 NDJAMENA/TCHAD', href: '/something' },
+      { title: 'Tel: +235 62 80 52 61 / 98 27 67 04', href: '/#' },
+      { title: 'QUARTIER CHAGOUA', href: '/#' },
+      { title: 'BP: 1629 NDJAMENA/TCHAD', href: '/#' },
     ],
   },
   {
