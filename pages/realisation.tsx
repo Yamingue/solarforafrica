@@ -10,7 +10,7 @@ import photos from 'utils/photos';
 export default function PricingPage() {
  
   return (
-    <Page title="Réalisation" description="Visualiser nos dernière réalisations.">
+    <Page title="Réalisation" description="Visualiser nos dernières réalisations.">
       <Wrapper>
         <CustomRichText>
         <ul>
