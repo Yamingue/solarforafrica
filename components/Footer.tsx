@@ -18,16 +18,17 @@ const footerItems: FooterItems = [
   //   ],
   // },
   {
-    title: 'Product',
+    title: 'Contacts',
     items: [
-      { title: 'Features', href: '/features' },
-      { title: 'Something', href: '/something' },
-      { title: 'Something else', href: '/something-else' },
-      { title: 'And something else', href: '/and-something-else' },
+      { title: 'Features', href: '#' },
+      { title: 'E-mail: solar.forafrica@yahoo.com', href: '/something' },
+      { title: 'Tel: +235 62 80 52 61 / 98 27 67 04', href: '/something' },
+      { title: 'QUARTIER CHAGOUA', href: '/something' },
+      { title: 'BP: 1629 NDJAMENA/TCHAD', href: '/something' },
     ],
   },
   {
-    title: 'Knowledge',
+    title: 'Notre mission',
     items: [
       { title: 'Blog', href: '/blog' },
       { title: 'Contact', href: '/contact' },
@@ -36,7 +37,7 @@ const footerItems: FooterItems = [
     ],
   },
   {
-    title: 'Something',
+    title: 'A propos',
     items: [
       { title: 'Features2', href: '/features2' },
       { title: 'Something2', href: '/something2' },
