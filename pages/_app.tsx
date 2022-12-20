@@ -24,7 +24,7 @@ const navItems: NavItems = [
   { title:'Nos réalisations',href:'/realisation'},
   { title: 'Pricing', href: '/pricing' },
   { title: 'Contact', href: '/contact' },
-  { title: 'Sign up', href: '/sign-up', outlined: true },
+  //{ title: 'Sign up', href: '/sign-up', outlined: true },
 ];
 
 function MyApp({ Component, pageProps }: AppProps) {
