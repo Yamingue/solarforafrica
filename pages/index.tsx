@@ -12,6 +12,7 @@ import Hero from 'views/HomePage/Hero';
 import Partners from 'views/HomePage/Partners';
 // import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
 import Testimonials from 'views/HomePage/Testimonials';
+import Confiance from 'views/HomePage/Confiance';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
@@ -27,12 +28,13 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
+          <Confiance />
           <BasicSection imageUrl="/pompe2.jpg" title="PHOTOVOLTAIQUE – POMPES SOLAIRES" overTitle="POMPES SOLAIRES">
             <p>
               L’utilisation de systèmes de pompage immergés ou en surface alliés à un système photovoltaïque est une alternative intéressante. En effet, l’énergie solaire reste abondante et gratuite, elle est captée via des panneaux solaires posés soit en châssis au sol soit sur des trackers solaires qui vont suivre la course du soleil pour augmenter les performances du système.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/solar.jpeg" title="PHOTOVOLTAIQUE – KITS SITES ISOLES DC - CONTINU" overTitle="PHOTOVOLTAIQUE" reversed>
+          <BasicSection imageUrl="/solar.jpeg" title="PHOTOVOLTAIQUE – KIT AUTONOME" overTitle="KIT AUTONOME" reversed>
             <p>
               Les kits SOLAR FOR AFRICA sont livrés prêts à être posés et utilisés sur des châssis équipés des protections, de l’onduleur, du régulateur de charge, des batteries et des câbles solaires. Les kits comprennent les panneaux photovoltaïques ainsi que les châssis de toiture.
             </p>
@@ -41,6 +43,11 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               <li>Professional remark 2</li>
               <li>Professional feature 3</li>
             </ul> */}
+          </BasicSection>
+          <BasicSection imageUrl="/offres/tele.png" title="PHOTOVOLTAIQUE – KIT SOLAIRE" overTitle="KIT SOLAIRE">
+            <p>
+              Le KIT SOLAIRE est une centrale solaire, faisant fonctionner plusieurs appareils comme le téléviseur 32 pouces et le ventilateur, les accessoires, les téléphones portables et les lumières vives d'une simple pression sur un interrupteur.
+            </p>
           </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
