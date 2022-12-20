@@ -27,12 +27,12 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/water-pump.svg" title="PHOTOVOLTAIQUE – POMPES SOLAIRES" overTitle="POMPES SOLAIRES">
+          <BasicSection imageUrl="/pompe2.jpg" title="PHOTOVOLTAIQUE – POMPES SOLAIRES" overTitle="POMPES SOLAIRES">
             <p>
               L’utilisation de systèmes de pompage immergés ou en surface alliés à un système photovoltaïque est une alternative intéressante. En effet, l’énergie solaire reste abondante et gratuite, elle est captée via des panneaux solaires posés soit en châssis au sol soit sur des trackers solaires qui vont suivre la course du soleil pour augmenter les performances du système.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/solar2.svg" title="PHOTOVOLTAIQUE – KITS SITES ISOLES DC - CONTINU" overTitle="PHOTOVOLTAIQUE" reversed>
+          <BasicSection imageUrl="/solar.jpeg" title="PHOTOVOLTAIQUE – KITS SITES ISOLES DC - CONTINU" overTitle="PHOTOVOLTAIQUE" reversed>
             <p>
               Les kits SOLAR FOR AFRICA sont livrés prêts à être posés et utilisés sur des châssis équipés des protections, de l’onduleur, du régulateur de charge, des batteries et des câbles solaires. Les kits comprennent les panneaux photovoltaïques ainsi que les châssis de toiture.
             </p>

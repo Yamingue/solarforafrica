@@ -7,6 +7,7 @@ import HeroIllustration from 'components/HeroIllustation';
 import OverTitle from 'components/OverTitle';
 import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
+import Image from 'next/image';
 
 export default function Hero() {
   const { setIsModalOpened } = useNewsletterModalContext();
@@ -37,7 +38,9 @@ export default function Hero() {
         </CustomButtonGroup>
       </Contents>
       <ImageContainer>
-        <HeroIllustration />
+        {/* <Image src="/banner.jpg" height={500} width={500} /> */}
+        <img src="/banner1.jpg" height={'100%'} width={'100%'} alt='banner' />
+        {/* <HeroIllustration /> */}
       </ImageContainer>
     </HeroWrapper>
   );
