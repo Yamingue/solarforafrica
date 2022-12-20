@@ -10,13 +10,13 @@ type SingleFooterList = { title: string; items: FooterListItems };
 type FooterItems = SingleFooterList[];
 
 const footerItems: FooterItems = [
-  {
-    title: 'Company',
-    items: [
-      { title: 'Privacy Policy', href: '/privacy-policy' },
-      { title: 'Cookies Policy', href: '/cookies-policy' },
-    ],
-  },
+  // {
+  //   title: 'Company',
+  //   items: [
+  //     { title: 'Privacy Policy', href: '/privacy-policy' },
+  //     { title: 'Cookies Policy', href: '/cookies-policy' },
+  //   ],
+  // },
   {
     title: 'Product',
     items: [

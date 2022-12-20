@@ -57,7 +57,7 @@ const FEATURES = [
       `,
   },
   {
-    imageUrl: '/offres/d100.png',
+    imageUrl: '/offres/D100.png',
     title: 'd.light D100 Solar Home System.',
     description:
       `
