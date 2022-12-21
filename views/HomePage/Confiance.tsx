@@ -12,6 +12,15 @@ const PARTNER_LOGOS = [
   'PNUD.png',
   'UNFPA.png',
   'UNICEF.jpg',
+  'ACRA.jpeg',
+  'ADES.jpeg',
+  'CARE.jpeg',
+  'CARITAS.jpeg',
+  'ESSOR.jpeg',
+  'OXFAM.jpeg',
+  'RESCU.jpeg',
+  'SAHEL.jpeg',
+  'SI.jpeg',
 ];
 
 export default function Confiance() {

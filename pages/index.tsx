@@ -48,6 +48,16 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               Le KIT SOLAIRE est une centrale solaire, faisant fonctionner plusieurs appareils comme le téléviseur 32 pouces et le ventilateur, les accessoires, les téléphones portables et les lumières vives d&apos;une simple pression sur un interrupteur.
             </p>
           </BasicSection>
+          <BasicSection imageUrl="/offres/eolinne.jpg" title="ÉNERGIE ÉOLIENNE" overTitle="KIT ÉOLIENNE" reversed>
+            <p>
+            Allant des petites éolienne de quelques watt à des grandes Éolienne de plusieurs kilowatts, nous proposons des aérogénérateur de dernière génération et très performant.
+            </p>
+          </BasicSection>
+          <BasicSection imageUrl="/offres/pomp.jpg" title="SYSTÈME DE POMPAGE ÉOLIEN" overTitle="POMPAGE ÉOLIEN" >
+            <p>
+            Nous proposons des éoliennes de pompage pour la production d'eau potable et l'abreuvoir des bétails en site isolés
+            </p>
+          </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>
           <Cta />
