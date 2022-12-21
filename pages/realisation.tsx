@@ -1,9 +1,9 @@
+import PhotoAlbum from "react-photo-album";
 import styled from 'styled-components';
 import Page from 'components/Page';
-import relisation from 'utils/realistion';
-import RichText from 'components/RichText';
-import PhotoAlbum from "react-photo-album";
 import photos from 'utils/photos';
+import RichText from 'components/RichText';
+import relisation from 'utils/realistion';
 // import FaqSection from 'views/PricingPage/FaqSection';
 // import PricingTablesSection from 'views/PricingPage/PricingTablesSection';
 

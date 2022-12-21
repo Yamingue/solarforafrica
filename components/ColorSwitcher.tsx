@@ -1,4 +1,7 @@
-import { ColorModeStyles, useColorModeValue, useColorSwitcher } from 'nextjs-color-mode';
+import { 
+  // ColorModeStyles,
+  //  useColorModeValue, 
+   useColorSwitcher } from 'nextjs-color-mode';
 import styled from 'styled-components';
 
 export default function ColorSwitcher() {

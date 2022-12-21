@@ -23,7 +23,7 @@ const navItems: NavItems = [
   { title: 'Nos offres', href: '/offres' },
   { title:'Nos réalisations',href:'/realisation'},
   //{ title: 'Pricing', href: '/pricing' },
-  { title: 'Contact', href: '/contact' },
+  { title: 'Contact', href: '/contact' }
   //{ title: 'Sign up', href: '/sign-up', outlined: true },
 ];
 

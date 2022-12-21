@@ -5,6 +5,7 @@ import BasicSection from 'components/BasicSection';
 // import Link from 'components/Link';
 import { EnvVars } from 'env';
 import { getAllPosts } from 'utils/postsFetcher';
+import Confiance from 'views/HomePage/Confiance';
 import Cta from 'views/HomePage/Cta';
 import Features from 'views/HomePage/Features';
 // import FeaturesGallery from 'views/HomePage/FeaturesGallery';
@@ -12,7 +13,6 @@ import Hero from 'views/HomePage/Hero';
 import Partners from 'views/HomePage/Partners';
 // import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
 import Testimonials from 'views/HomePage/Testimonials';
-import Confiance from 'views/HomePage/Confiance';
 
 export default function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
@@ -28,10 +28,20 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/pompe2.jpg" title="PHOTOVOLTAIQUE – POMPES SOLAIRES" overTitle="POMPES SOLAIRES">
+          <BasicSection imageUrl="/pompe2.jpg" title="PHOTOVOLTAIQUE – POMPES SOLAIRES" overTitle="POMPES SOLAIRES" reversed>
             <p>
               L&apos;utilisation de systèmes de pompage immergés ou en surface alliés à un système photovoltaïque est une alternative intéressante. En effet, l&apos;énergie solaire reste abondante et gratuite, elle est captée via des panneaux solaires posés soit en châssis au sol soit sur des trackers solaires qui vont suivre la course du soleil pour augmenter les performances du système.
             </p>
+          </BasicSection>
+          <BasicSection imageUrl="/isole.jpg" title="SYSTÈME AUTONOME EN SITE ISOLÉ" overTitle="KIT AUTONOME" >
+            <p>
+            Nous proposons des solutions pour l&apos;accès à l&apos;énergie dans les sites isolés du réseau national de production d&apos;électricité pour l&apos;alimentation des habitations et les entreprises allant jusqu&apos;à 20KW ainsi que les systèmes d&apos;éclairage public.
+            </p>
+            {/* <ul>
+              <li>Professional point 1</li>
+              <li>Professional remark 2</li>
+              <li>Professional feature 3</li>
+            </ul> */}
           </BasicSection>
           <BasicSection imageUrl="/solar.jpeg" title="PHOTOVOLTAIQUE –Kit automatique et hybride" overTitle="KIT AUTONOME" reversed>
             <p>
@@ -43,19 +53,19 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               <li>Professional feature 3</li>
             </ul> */}
           </BasicSection>
-          <BasicSection imageUrl="/offres/tele.png" title="PHOTOVOLTAIQUE – KIT SOLAIRE" overTitle="KIT SOLAIRE">
+          <BasicSection imageUrl="/offres/tele.png" title="PHOTOVOLTAIQUE – KIT SOLAIRE" overTitle="KIT SOLAIRE" reversed>
             <p>
               Le KIT SOLAIRE est une centrale solaire, faisant fonctionner plusieurs appareils comme le téléviseur 32 pouces et le ventilateur, les accessoires, les téléphones portables et les lumières vives d&apos;une simple pression sur un interrupteur.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/offres/eolinne.jpg" title="ÉNERGIE ÉOLIENNE" overTitle="KIT ÉOLIENNE" reversed>
+          <BasicSection imageUrl="/offres/eolinne.jpg" title="ÉNERGIE ÉOLIENNE" overTitle="KIT ÉOLIENNE" >
             <p>
             Allant des petites éolienne de quelques watt à des grandes Éolienne de plusieurs kilowatts, nous proposons des aérogénérateur de dernière génération et très performant.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/offres/pomp.jpg" title="SYSTÈME DE POMPAGE ÉOLIEN" overTitle="POMPAGE ÉOLIEN" >
+          <BasicSection imageUrl="/offres/pomp.jpg" title="SYSTÈME DE POMPAGE ÉOLIEN" overTitle="POMPAGE ÉOLIEN" reversed>
             <p>
-            Nous proposons des éoliennes de pompage pour la production d'eau potable et l'abreuvoir des bétails en site isolés
+            Nous proposons des éoliennes de pompage pour la production d&apos;eau potable et l&apos;abreuvoir des bétails en site isolés
             </p>
           </BasicSection>
         </WhiteBackgroundContainer>
