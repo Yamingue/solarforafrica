@@ -27,6 +27,7 @@ const Card = styled.div`
   align-items: center;
   text-align: center;
   width: 100%;
+  max-width:500px;
   border-radius: 0.6rem;
   color: rgb(var(--text));
   font-size: 1.6rem;
